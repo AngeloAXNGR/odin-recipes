@@ -1,8 +1,9 @@
-*{
+body{
   margin:auto;
   text-align: center;
   font-family: 'Courier New', Courier, monospace;
 }
+
 
 #main-image{
   width: 300px;
@@ -27,5 +28,20 @@
 }
 
 .recipes li{
+  margin:10px;
+}
+
+.recipe-image{
+  width:500px;
+  height:400px;
+}
+
+.container{
+  text-align:justify;
+  padding-left:25%;
+  padding-right:25%;
+}
+
+.container li{
   margin:10px;
 }
